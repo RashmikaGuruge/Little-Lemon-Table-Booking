@@ -20,7 +20,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Booking Details:\nName: ${form.name}\nContact: ${form.contact}\nDate: ${form.date}\nTime: ${form.time}\nGuests: ${form.guests}`);
-    // Here, you can add code to handle the form submission, e.g., sending the data to a server.
   };
 
   return (
